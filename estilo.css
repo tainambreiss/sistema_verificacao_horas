@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(255, 246, 192);
+  font: normal 15pt arial;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  font-size: 15pt;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  padding: 15px;
+  width: 90%; /* Ajusta a largura para 90% da tela, em vez de um valor fixo */
+  max-width: 500px; /* Limita a largura máxima */
+  height: auto; /* Remove altura fixa para permitir ajuste automático */
+  margin: 20px auto; /* Adiciona um pouco de margem superior */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+}
+
+footer {
+  font-style: italic;
+  margin-top: 20px; /* Adiciona margem superior para separar do conteúdo principal */
+}
+
+/* Media Queries para Telas Menores */
+@media (max-width: 768px) {
+  section {
+      font-size: 13pt; /* Diminui o tamanho da fonte em telas menores */
+      padding: 10px; /* Reduz o padding para telas menores */
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+      font-size: 12pt; /* Ajuste adicional para telas ainda menores */
+      padding: 8px;
+  }
+
+  body {
+      font: normal 14pt arial; /* Reduz o tamanho da fonte do body */
+  }
+}
